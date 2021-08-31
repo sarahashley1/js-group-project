@@ -1,6 +1,6 @@
 body {
     font-family: Roboto;
-    background: #015e20;
+    background: #017a29;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #015e20, #1F1C18);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -17,9 +17,13 @@ body {
     
   }
 
+    form {
+        text-align: center;
+    }
+/* 
    h1{
     margin-left: 50px;
-   }
+   } */
 
     #sticky {
       background-color: #dfcd30;
@@ -27,12 +31,12 @@ body {
      width: 570px;
      position: absolute;
      top: 125px;
-     left: 25px;
+     left: 115px;
     }
 
     #cap {
-    background: #4d2c07;
-    color:#686454;
+    background: #574b3d;
+    color:#797462;
     margin: 0;
     padding: 10px 100px;
     height: 15px;
@@ -45,7 +49,7 @@ body {
   }
   
   form input[type="text"] {
-    width=90px;
+    width:90px;
    
   }
   
@@ -56,7 +60,7 @@ body {
   #billamt {
     font-size: 14px;
     /*color: #2980b9;*/
-    color: #red;
+    color: #111;
     background-color: #f7f7f7;
     width: 60%;
     padding: 5px 5px 8px 8px;
@@ -72,7 +76,7 @@ body {
     width: 60%;
     padding: 5px 5px 8px 8px;
     margin-left: 20px;
-    color: #red;
+    color: #111;
     background-color: #f7f7f7;
     font-size: 14px;
   }
